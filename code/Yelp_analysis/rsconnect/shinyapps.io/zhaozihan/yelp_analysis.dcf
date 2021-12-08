@@ -1,0 +1,13 @@
+name: yelp_analysis
+title:
+username:
+account: zhaozihan
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5281265
+bundleId: 5338292
+url: https://zhaozihan.shinyapps.io/yelp_analysis/
+when: 1638861124.53802
+lastSyncTime: 1638861124.53803
+asMultiple: FALSE
+asStatic: FALSE

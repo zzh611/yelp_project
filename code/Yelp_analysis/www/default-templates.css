@@ -1,3 +1,4 @@
+
 .cell {
   background: #6babff;
   border: 5px solid rgb(166 205 255);
@@ -34,11 +35,20 @@ body {
   font-size: 16px;
 }
 
+.well {
+  background-color: white;
+  border: 2px solid #8b00bc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
 .tabbable {
-    border: 2px solid #9296c7;
+    border: 2px solid #8b00bc;
     border-radius: 5px;
     padding: 10px;
 }
+
+
 
 .tab-content {
     padding: 10px 0;
@@ -71,4 +81,7 @@ body .nav-tabs>li.active>a:focus, body .nav-tabs>li>a:focus {
   z-index: -1;
   height: 100vh;
   width: 100vw;
+}
+.h2{
+  color: #8b00bc;
 }
