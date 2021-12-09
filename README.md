@@ -12,10 +12,7 @@ Zhifeng Chen
 
 In this project, we aim to provide useful suggestions for BBQ restaurant owners to help them improve their business. In order to achieve this, we analyze the business.json file and the review.json file from the Yelp dataset. Then, we provide these business owners with some suggestions to help them improve their performance.
 
-In the github, we have 4 folders in total, they are data, slides, code, and shiny.
-
-## Data
-Since the raw dataset is too big, we uploaded the cleaned dataset here.
+In the github, we have 4 folders in total, they are slides, code, image, and shiny.
 
 ## Slides
 In slides folder, we put 2 presentation slides in it.
