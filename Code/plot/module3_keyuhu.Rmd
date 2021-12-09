@@ -1,0 +1,50 @@
+---
+title: "stat628_module3"
+author: "Andrew Hu"
+date: "11/16/2021"
+output: html_document
+---
+
+```{r}
+data = read.csv("expand.csv")
+data1 = read.csv("BBQ.csv")
+colnames(data)
+colnames(data1)
+nrow(data)
+nrow(data1)
+```
+
+#how many barbeque restaurants does each state have
+```{r}
+library(dplyr)
+data %>%
+    group_by(state) %>%
+    summarise(count = n())  
+data1 %>%
+    group_by(state) %>%
+    summarise(count = n())  
+```
+
+#total review count of each state
+```{r}
+
+library(dplyr)
+t1 = data %>%
+    group_by(state) %>%
+    summarise(tot_review = sum(review_count),count = n())
+
+cor(t1$tot_review,t1$count)
+library(ggplot2)
+ggplot(t1, aes(state))+                  
+  geom_point(aes(y=(count-mean(count))/sd(count)), colour="red")+
+  geom_point(aes(y=(tot_review-mean(tot_review))/sd(tot_review)), colour="blue") 
+
+#population of each state
+pop = c(5.071,5.894,21.944,10.830,6.912,11.714,4.289,29.730,7.797)*1000000
+ratio = t1$tot_review/pop
+t1 = cbind(t1,ratio)
+ggplot(t1, aes(state))+                  
+  geom_point(aes(y=(count-mean(count))/sd(count)), colour="red")+
+  geom_point(aes(y=(tot_review-mean(tot_review))/sd(tot_review)), colour="blue")+ 
+  geom_point(aes(y=(ratio-mean(ratio))/sd(ratio)), colour="orange") 
+```
