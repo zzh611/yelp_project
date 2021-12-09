@@ -4,7 +4,7 @@
 
 Keyu Hu
 
-Kelly Zihan Zhao
+Kelly Zihan Zhao: zzhao387@wisc.edu
 
 Zhifeng Chen
 
@@ -31,3 +31,10 @@ For model, we have word frequency, word2vec and logistic regression.
 In shiny, we put our shiny codes for it. And here is our shiny link.
 
 https://zhaozihan.shinyapps.io/yelp_analysis/
+
+## Contibution
+
+Keyu Hu: text cleaning, word frequency, report and slides 
+Kelly Zhao: data cleaning, build model, shiny app, report and slides
+Zhifeng Chen: regression model, report and slides
+
