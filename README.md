@@ -24,10 +24,10 @@ For dataProcessing, we have data cleaning, filter by attribute, and review clean
 
 For model, we have word frequency, word2vec and logistic regression.
 
-## Shiny
-In shiny, we put our shiny codes for it. And here is our shiny link.
+For shiny, we put our shiny codes for it. And here is our shiny link.
 
 https://zhaozihan.shinyapps.io/yelp_analysis/
+
 
 ## Contibution
 
