@@ -33,7 +33,7 @@ https://zhaozihan.shinyapps.io/yelp_analysis/
 
 Keyu Hu: text cleaning, word frequency, report and slides 
 
-Kelly Zhao: data cleaning, build model, shiny app, report and slides
+Kelly Zhao: data cleaning, build text models, create a shiny app, write the report and slides
 
 Zhifeng Chen: regression model, report and slides
 
